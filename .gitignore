@@ -1,0 +1,29 @@
+# Archivos generados por Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.bak
+*.log
+
+# Binarios de compilación
+bin/
+obj/
+Debug/
+Release/
+
+# Publicaciones
+*.Publish.xml
+*.publishproj
+
+# Archivos de configuración local
+*.psess
+*.vsp
+*.pdb
+*.tmp
+*.sdf
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
