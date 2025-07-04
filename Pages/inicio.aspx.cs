@@ -1,5 +1,4 @@
 ﻿using System;
-using LogicaNegocios;
 
 namespace SimuladorCaosRestaurante.Vistas
 {
@@ -7,7 +6,9 @@ namespace SimuladorCaosRestaurante.Vistas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblMensaje.InnerText = MensajeNegocio.ObtenerMensaje();
+            // Solo si querés modificar el título desde el backend (opcional)
+            Page.Title = "Página de Inicio";
         }
     }
 }
+

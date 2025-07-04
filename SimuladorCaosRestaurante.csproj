@@ -67,18 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Vistas\inicio.aspx" />
+    <Content Include=".gitignore" />
+    <Content Include="Pages\inicio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatos\MensajeDatos.cs" />
     <Compile Include="LogicaNegocios\MensajeNegocio.cs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vistas\inicio.aspx.cs">
+    <Compile Include="Pages\inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vistas\inicio.aspx.designer.cs">
+    <Compile Include="Pages\inicio.aspx.designer.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
