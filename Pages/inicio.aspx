@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="SimuladorCaosRestaurante.Vistas.Inicio" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="SimuladorCaosRestaurante.Pages.Inicio" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">

@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SimuladorCaosRestaurante.Vistas
+namespace SimuladorCaosRestaurante.Pages
 {
 
 

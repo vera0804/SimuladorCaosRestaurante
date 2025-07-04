@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimuladorCaosRestaurante.Vistas
+namespace SimuladorCaosRestaurante.Pages
 {
     public partial class Inicio : System.Web.UI.Page
     {
