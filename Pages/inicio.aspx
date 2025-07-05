@@ -15,16 +15,22 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon/favicon.ico" />
 
     <!-- Vendor Styles -->
-    <link rel="stylesheet" href="../vendor/fonts/boxicons.css" />
-    <link rel="stylesheet" href="../vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../vendor/css/pages/page-auth.css" />
+    <link rel="stylesheet" href="/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="/vendor/css/pages/page-auth.css" />
 
     <!-- App Styles -->
-    <link rel="stylesheet" href="../css/demo.css" />
-    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+
+    <!-- Scripts -->
+    <script src="/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="/js/main.js"></script>
 </head>
+
 
 <body>
     <div style="background-color: #95CD38; padding: 8px 20px; color: white; font-size: 14px;" class="d-flex justify-content-between align-items-center flex-wrap">
@@ -325,6 +331,17 @@
         if (document.getElementById("roles2")) document.getElementById("roles2").classList.remove("d-none");
     }
 </script>
+<!-- jQuery (opcional pero común con Bootstrap 5 si se usa JS adicional) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Popper.js (requerido por Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap 5 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html>
 
